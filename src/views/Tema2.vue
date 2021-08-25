@@ -2,9 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
     .titulo-principal
-      .h3 Producción Audiovisual
+      .titulo-principal__numero
+        span  2
+      h1 Entorno de desarrollo <i>Xcode</i>
     
     #t_2_1.titulo-segundo
       .h4 2.1 Infografía Animada
