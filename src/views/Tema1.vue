@@ -71,14 +71,58 @@
             p Permite el aumento de nuevas características según las necesidades, haciéndolo mucho más fácil de escalar.
 
 
-
-
-
     Separador
     br
     br
     #t_1_2.titulo-segundo
       h2  1.2  Tipos de datos
+    .row.mb-5
+      .col-lg-2
+        figure
+          img(src='@/assets/curso/t1-ic6.svg', alt='imagen decorativa')    
+
+      .col-lg-10
+        p.mb-5  Son aquellos en donde se almacena la información por medio de variables y constantes, por ejemplo, si queremos almacenar un texto se necesita un tipo de dato <i>String</i>, y si se quiere almacenar un valor numérico se necesita un tipo de dato <i>Int</i>.
+        p.mb-5  En <b>el lenguaje de programación Swift</b> se encuentran los tipos de datos básicos que se enuncian en la siguiente tabla:
+        figcaption.customCaption.mb-2 <b>Tabla</b> <i>Tipos de datos básicos en Swift</i>
+        .tabla-b.color-acento-contenido.mb-5
+          table
+            tr
+              th Int
+              td Número entero de 32 <i>bits</i> con un rango de entre -2.147.483.648 y 2,147,483,647.
+            tr
+              th Double
+              td Número flotante de 64 <i>bits</i> con hasta 15 decimales de precisión.
+            tr
+              th Float
+              td Número flotante de 32 <i>bits</i> con hasta 6 decimales de precisión.
+            tr
+              th Bool
+              td Número booleano que puede ser 0 <i>(false)</i> o 1 <i>(true).</i>
+            tr
+              th String
+              td Cadena de caracteres, tratada internamente con una matriz (array) de ellos.
+
+    .row.mb-5
+      .col-lg-8
+        p.mb-3  Las constantes y variables presentes en los tipos de datos relacionan valores, recordando que una constante es un elemento de datos con nombre  y con un valor predefinido, mientras que una variable es un elemento de datos con nombre cuyo valor puede cambiar durante el curso de la ejecución de un programa. 
+        p.mb-3  <b>Constantes y variables</b> son segmentos de memoria que asocian un nombre con un valor de un tipo en particular, cuando se establece un valor en una constante este no se puede cambiar, mientras que una variable permite cambiar su valor en tiempo de ejecución.
+        p.mb-3  Encontrando elementos particulares en cada una de estas, tal como puede verse a continuación:
+      .col-lg-4
+    TabsC.color-primario.mb-5
+      .py-3.py-md-4(titulo="Declaración de constantes y variables")
+        .row
+          .col-md-6.mb-4.mb-md-0.p-4
+            h4 Declaración de constantes y variables
+            p En el lenguaje Swift las constantes y variables se deben declarar antes de ser usadas, para declarar una constante se usa la palabra reservada let y para declarar una variable se utiliza la palabra reservada var.
+        
+          .col-md-6
+            figcaption.customCaption <b></b>  Declaración de constante
+            figure
+              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+
+
+
 
 
     Separador
