@@ -1,0 +1,250 @@
+.shadow-box
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .2);
+.neg-margin-x
+  margin-left: -3rem
+  margin-right: -3rem
+.color-turquesa
+  background-color: #4DD0E1
+.tarjeta.color-primario
+  background-color: #E3F7FA
+a
+  color: #000
+.r-0
+  border-radius: 0px !important
+figcaption
+  font-weight: 400
+.customCaption
+  background-color: transparent
+  border-left: 4px solid #FFA726
+  font-size: 13px
+.customCaption-bold
+  background-color: transparent
+  border-left: 4px solid #FFA726
+  font-weight: 700
+  font-size: 18px
+.bloque-texto-a.color-secundario
+  background-color: #E9E9E9
+.bloque-texto-a.color-secundario:before
+  background-color: #4DD0E1
+.nW
+  width: auto
+.centered
+  margin: 0 auto
+.bg-soft-gray
+  background-color: #F6F6F6
+.c1
+  background-color: #FFF2C9
+  border: 3px solid #FFF2C6
+  border-right: 0
+.c1:hover
+  background-color: #FFCA28
+  color: #000
+
+.c2
+  background-color: #DBF6F9
+  border: 3px solid #4DD0E1
+  border-left: 0
+.c3
+  background-color: #fff
+  border: 3px solid #4DD0E1
+  border-left: 0
+.c2:hover
+  background-color: #4DD0E1
+  color: #fff
+.c1:hover *, .c2:hover *
+  color: #000
+
+.framed
+  border: 2px solid #FFDC72
+  width: 100%
+  height: 100%
+  top: -10px
+  left: -10px
+  z-index: 2
+.tabs-a__tab
+  background-color: #E8E8E8
+.tabla-a table
+  min-width: 100%
+.titulo-principal__numero
+  background-color: #5038A1
+.sticky
+  position: -webkit-sticky
+  position: sticky
+  top: 0
+.bloque-texto-b:before
+  left: 55%
+  top: 65%
+  background-color: #FFF6DB!important
+.titulo-tercero
+  border-left: 5px solid #FFDC72
+  padding-left: 20px
+.cajon.color-secundario, .tarjeta.color-secundario
+  background-color: #FFF6DB
+.tarjeta.color-acento-botones
+  background-color: #E1D9FB
+.tarjeta.color-acento-botones *
+  color: #12263F!important
+.nav-holder
+  display: inline-block;
+  margin: 10px 5px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+.nav-holder *, .nav-holder *:before, .nav-holder *:after
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  -moz-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+.tabla-a.color-acento-botones thead
+  background-color: #5038A1
+  color: #fff
+.soft-gray
+  background-color: #F6F6F6
+.text-it
+  font-style: italic
+.nav-holder:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #FFCA28
+  z-index: 888
+  opacity: 0.7
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+.nav-holder:before
+  -webkit-transform: translateY(100%)
+  -moz-transform: translateY(100%)
+  transform: translateY(100%)
+
+.nav-holder:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 0.9
+  bottom: 0px
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+
+.nav-holder
+  .text
+    position: absolute
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+  img
+    backface-visibility: hidden
+    vertical-align: top
+    z-index: 0
+  p, i
+    opacity: 0
+    text-align: center
+    font-weight: 700
+
+.nav-holder h3
+    margin: 0
+    opacity: 1
+    margin-top: 25%
+
+.nav-holder:hover
+  p, i
+    opacity: 1
+    -webkit-transition-delay: 0.2s
+    -moz-transition-delay: 0.2s
+    transition-delay: 0.2s
+.nav-holder *
+  color: #000
+
+.slideInLeft
+  -webkit-animation-name: slideInLeft
+  animation-name: slideInLeft
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+@-webkit-keyframes slideInLeft
+  0%
+    -webkit-transform: translateX(-100%)
+    transform: translateX(-100%)
+    visibility: visible
+
+  100%
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+
+@keyframes slideInLeft
+  0%
+    -webkit-transform: translateX(-100%)
+    transform: translateX(-100%)
+    visibility: visible
+
+  100%
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+.slideInRight
+  -webkit-animation-name: slideInRight
+  animation-name: slideInRight
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+
+@-webkit-keyframes slideInRight
+  0%
+    -webkit-transform: translateX(100%)
+    transform: translateX(100%)
+    visibility: visible
+
+  100%
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+
+@keyframes slideInRight
+  0%
+    -webkit-transform: translateX(100%)
+    transform: translateX(100%)
+    visibility: visible
+
+  100%
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+    
+.slideInUp
+  -webkit-animation-name: slideInUp
+  animation-name: slideInUp
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+
+@-webkit-keyframes slideInUp
+  0%
+    -webkit-transform: translateY(100%)
+    transform: translateY(100%)
+    visibility: visible
+
+  100%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
+
+@keyframes slideInUp
+  0%
+    -webkit-transform: translateY(100%)
+    transform: translateY(100%)
+    visibility: visible
+
+  100%
+    -webkit-transform: translateY(0)
+    transform: translateY(0)
