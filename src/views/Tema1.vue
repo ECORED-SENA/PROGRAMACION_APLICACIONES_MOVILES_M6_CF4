@@ -111,17 +111,85 @@
       .col-lg-4
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Declaración de constantes y variables")
-        .row
+        .row.mb-5
           .col-md-6.mb-4.mb-md-0.p-4
             h4 Declaración de constantes y variables
             p En el lenguaje Swift las constantes y variables se deben declarar antes de ser usadas, para declarar una constante se usa la palabra reservada let y para declarar una variable se utiliza la palabra reservada var.
         
           .col-md-6
-            figcaption.customCaption <b></b>  Declaración de constante
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption.customCaption.mb-2 <b>Ejemplo</b>  Declaración de constante
+            .tarjeta.tarjeta--gris.p-4
+              figure
+                img.nW(src='@/assets/curso/t1-c1.svg', alt='Ejmplo de codigo')
+        .row.mb-5.justify-content-center
+          .col-lg-10
+            .cajon.color-primario.p-4
+              p.mb-0  Las constantes no pueden cambiar su valor inicial, si se le asigna otro valor a edad o nombre genera un error.       
 
+      .py-3.py-md-4(titulo="Declaración de variable")
+        .row.mb-5
+          .col-md-6.mb-4.mb-md-0.p-4
+            h4 Declaración de variable
+            p Las variables sí pueden cambiar su valor, en el ejemplo se ve en que el valor inicial de la variable es Nirvana y después se le cambia el valor por Romeo.
+        
+          .col-md-6
+            figcaption.customCaption.mb-2 <b>Ejemplo</b>  Declaración de variable
+            .tarjeta.tarjeta--gris.p-4
+              figure
+                img.nW(src='@/assets/curso/t1-c2.svg', alt='Ejmplo de codigo')
+        .row.mb-5.justify-content-center
+          .col-lg-10
+            .cajon.color-primario.p-4
+              p.mb-0  Las constantes no pueden cambiar su valor inicial, si se le asigna otro valor a edad o nombre genera un error.       
 
+      .py-3.py-md-4(titulo="Nomenclatura de variables y constantes")
+        .row.mb-5
+          .col-md-6.mb-4.mb-md-0.p-4
+            h4 Nomenclatura de variables y constantes
+            p.mb-3 En Swift se deben cumplir las siguientes reglas para el nombramiento de constantes y variables.
+            ul.lista-ul
+              li
+                i.fas.fa-check
+                | Los nombres de las constantes o variables no pueden contener caracteres de espacio en blanco, símbolos matemáticos, flechas o caracteres especiales.
+              li
+                i.fas.fa-check
+                | No pueden comenzar con un número, aunque los números pueden incluirse en otros lugares dentro del nombre, en el medio o al final.
+              li
+                i.fas.fa-check
+                | No se puede declarar una constante o variable de un cierto tipo, dos veces con el mismo nombre o cambiar el tipo de dato para almacenar valores de un tipo diferente.
+
+          .col-md-6
+            figcaption.customCaption.mb-2 <b>Ejemplo</b> 
+            .tarjeta.tarjeta--gris.p-4
+              figure
+                img.nW(src='@/assets/curso/t1-c3.svg', alt='Ejmplo de codigo')
+
+      .py-3.py-md-4(titulo="Nomenclatura de variables y constantes")
+        .row.mb-5
+          .col-md-6.mb-4.mb-md-0.p-4
+            h4 Función print
+            p.mb-3 Es una función global que permite imprimir uno o varios valores que contienen las constantes o las variables.
+            ul.lista-ul
+              li
+                i.fas.fa-check
+                | Los nombres de las constantes o variables no pueden contener caracteres de espacio en blanco, símbolos matemáticos, flechas o caracteres especiales.
+              li
+                i.fas.fa-check
+                | No pueden comenzar con un número, aunque los números pueden incluirse en otros lugares dentro del nombre, en el medio o al final.
+              li
+                i.fas.fa-check
+                | No se puede declarar una constante o variable de un cierto tipo, dos veces con el mismo nombre o cambiar el tipo de dato para almacenar valores de un tipo diferente.
+
+          .col-md-6
+            figcaption.customCaption.mb-2 <b>Ejemplo</b> 
+            .tarjeta.tarjeta--gris.p-4
+              figure
+                img.nW(src='@/assets/curso/t1-c4.svg', alt='Ejmplo de codigo')
+    
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-secundario.p-4.mb-5
+          p.mb-0  <b>Nota.</b> Swift no requiere que escriba un punto y coma (;) después de cada declaración en su código, a diferencia de muchos otros lenguajes.
 
 
 
@@ -130,6 +198,103 @@
     br
     #t_1_3.titulo-segundo
       h2  1.3  Operadores básicos
+    .row.justify-content-center.mb-5
+      .col-lg-8    
+        .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-3.mb-lg-0
+              figure.mb-5(data-aos="flip-left", data-aos-delay='0')
+                img.nW(src='@/assets/curso/t1-ic7.svg', alt='Imagen Decorativa') 
+            .col-lg-9
+              .bloque-texto-a__texto.p-4
+                p.mb-0  Los operadores son los símbolos que se utilizan para <b>asignar, comparar o combinar valores,</b> a continuación, podrá observar los tipos de operadores básicos:
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-primario.p-4(titulo="Operadores de asignación")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/t1-ic8.svg', alt='icono decorativo')
+          .col-lg-10
+            h4 Operadores de asignación
+            p (=) se encarga de inicializar o de actualizar un valor.
+            figcaption.customCaption Ejemplo
+            .tarjeta.tarjeta--gris.p-4
+              figure
+                img.nW(src='@/assets/curso/c1.png', alt='Ejemplo de codigo')
+
+      .tarjeta.color-primario.p-4(titulo="Operadores aritméticos")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/t1-ic9.svg', alt='icono decorativo')
+          .col-lg-10
+            h4 Operadores aritméticos
+            .row
+              .col-lg-4
+                ul.lista-ul
+                  li
+                    i.fas.fa-check
+                    | Suma (+)
+                  li
+                    i.fas.fa-check
+                    | Resta (-)
+                  li
+                    i.fas.fa-check
+                    | Multiplicación (*)
+              .col-lg-4
+                ul.lista-ul
+                  li
+                    i.fas.fa-check
+                    | División (/)
+                  li
+                    i.fas.fa-check
+                    | Módulo (%)
+                   
+            figcaption.customCaption Ejemplo
+            .tarjeta.tarjeta--gris.p-4
+              
+              figure
+                img.nW(src='@/assets/curso/c2.png', alt='Ejemplo de codigo')
+
+      .tarjeta.color-primario.p-4(titulo="Operadores de comparación")
+        .row
+          .col-lg-2
+            figure
+              img.nW(src='@/assets/curso/t1-ic10.svg', alt='icono decorativo')
+          .col-lg-10
+            h4 Operadores de comparación
+            .row
+              .col-lg-4
+                ul.lista-ul
+                  li
+                    i.fas.fa-check
+                    | Igual a ( )a == b
+                  li
+                    i.fas.fa-check
+                    | No es igual a ( )a !=
+                  li
+                    i.fas.fa-check
+                    | Mayor que ( )a > b
+              .col-lg-4
+                ul.lista-ul
+                  li
+                    i.fas.fa-check
+                    | Menor que ( )a < b
+                  li
+                    i.fas.fa-check
+                    | Mayor o igual a ( )a >= b
+                  li
+                    i.fas.fa-check
+                    | Menor o igual a ( )a <= b  
+                   
+            figcaption.customCaption Ejemplo
+            .tarjeta.tarjeta--gris.p-4
+              
+              figure
+                img.nW(src='@/assets/curso/c3.png', alt='Ejemplo de codigo')
+
+
+
 
     Separador
     br
