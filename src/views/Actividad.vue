@@ -13,7 +13,7 @@
           h2 Actividad didáctica: Sopa de letras
         p.mb-4 Afianzar algunos de los conceptos más importantes asociados al proceso de entorno de desarrollo de Swift, interfaces y lenguaje Swift.
         .tarjeta.tarjeta--azul.p-3
-          .row.justify-content-around.align-items-left           
+          .row.align-items-left           
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar

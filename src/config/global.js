@@ -220,19 +220,48 @@ export default {
         'https://mastermoviles.gitbook.io/persistencia-en-dispositivos-m-viles-ios/intro-2/3.2_stack',
     },
     {
-      texto: '',
+      texto:
+        'Instalación Xcode: Programando, A. &. (2020). Paso 3 - Descarga, instalación y configuración simple Xcode [video]. YouTube.',
       tipo: 'Video',
-      link: '',
+      link: 'https://www.youtube.com/watch?v=xTy6BWV4NR8',
     },
     {
-      texto: '',
-      tipo: 'Video',
-      link: '',
+      texto:
+        'Swift - Apple (CO). (2021). <i>Swift. Un poderoso lenguaje al alcance de todos para crear increíbles apps.</i>',
+      tipo: 'Página oficial',
+      link: 'https://www.apple.com/co/swift',
     },
     {
-      texto: '',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        '<i>SQLITE:</i> Luisi, A. (2016). Xcode programación (parte 1) - Conexión a base de datos SQLITE [video].',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=k4GK4MmE4Ag&t=27s',
+    },
+    {
+      texto:
+        'AdnanTech. (2021). <i>Create, read, update and delete from SQLite - Swift & Swift UI.</i>',
+      tipo: 'Video',
+      link:
+        'https://adnan-tech.com/create-read-update-and-delete-from-sqlite-swift-swift-ui',
+    },
+    {
+      texto:
+        '<i>SwiftUI</i>: Developer. (2021). SwiftUI essentials creating and combining views. ',
+      tipo: 'Página oficial',
+      link:
+        'https://developer.apple.com/tutorials/swiftui/creating-and-combining-views',
+    },
+    {
+      texto:
+        'Tipos de datos: Apple Coding. (2016). Swift 2, Lección 1, variables, constantes, inferencia y colecciones.',
+      tipo: 'Página',
+      link:
+        'https://applecoding.com/cursos/leccion-1-variables-constantes-inferencia-colecciones',
+    },
+    {
+      texto: 'Xcode: ‎Xcode. (2021). <i>Vista previa de Mac App Store.</i>',
+      tipo: 'Página',
+      link: 'https://apps.apple.com/es/app/xcode/id497799835?ls=1&mt=12',
     },
   ],
   creditos: {
