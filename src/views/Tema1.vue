@@ -301,12 +301,143 @@
     br
     #t_1_4.titulo-segundo
       h2  1.4 Condicionales
+    .row.mb-5
+      .col-lg-2
+         figure
+          img.nW(src='@/assets/curso/t1-ic11.svg', alt='imagen decorativa')
+      .col-lg-10
+        p.mb-3  <i><b>Swift</b></i> proporciona dos formas determinadas para trabajar con condicionales en su código, la declaración <i><b>if</b></i> y la declaración <b><i>switch</i></b>.
+        p.mb-3  La declaración <i><b>if</b></i> usualmente se trabaja cuando se necesita evaluar condiciones simples, mientras que <i><b>switch</b></i>  se adapta mejor a condiciones con múltiples respuestas.
+    
+    h3.titulo-tercero Estructura condicional <i>if</i> simple
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .tarjeta.tarjeta--gris.p-4.mb-5  
+          figure
+            img.nW(src='@/assets/curso/p1.png', alt='Ejemplo de codigo')
+
+        figcaption.customCaption.text-bold.mb-3 Ejemplo
+        .tarjeta.tarjeta--gris.p-4
+          figure
+            img.nW(src='@/assets/curso/p2.png', alt='Ejemplo de codigo')
+
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .cajon.color-secundario.p-4.mb-5(data-aos="flip-up")
+          p.mb-0  El ejemplo anterior verifica si la edad es mayor o igual a 18, si se cumple imprime un mensaje informando que es mayor de edad, en caso contrario no se imprime ningún mensaje.
+
+        p.mb-5  El condicional if contiene declaraciones alternativas como la cláusula else que se utiliza cuando la condición es falsa, para el ejemplo anterior no se ejecutaba ninguna acción si la condición era falsa, con la cláusula else se puede realizar esta verificación así:
+    
+    figcaption.customCaption.mb-3 <b>Ejemplo</b> cláusula <i>else</i>
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .tarjeta.tarjeta--gris.p-4
+          figure
+            img.nW(src='@/assets/curso/p3.png', alt='Ejemplo de codigo')
+
+    .row.mb-5
+      .col-lg-6
+        .cajon.color-secundario.p-4
+          p.mb-0 Para este ejemplo se ejecuta una de las dos instrucciones.
+
+    h3.titulo-tercero Switch
+    p.mb-5  Una declaración switch considera un valor y lo compara con varios de los valores de coincidencia posibles, ejecutando un bloque de código en el cual encuentra la coincidencia, esto quiere decir que compara un valor con uno o más valores del mismo tipo.
+    
+    figcaption.customCaption.mb-3 <b>Sintaxis</b>
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .tarjeta.tarjeta--gris.p-4
+          figure
+            img.nW(src='@/assets/curso/p4.png', alt='Ejemplo de codigo')
+
+    figcaption.customCaption.mb-3 <b>Ejemplo:</b>
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .tarjeta.tarjeta--gris.p-4
+          figure
+            img.nW(src='@/assets/curso/p5.png', alt='Ejemplo de codigo')
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-secundario.p-4
+          p.mb-0 El ejemplo anterior compara los días de la semana, el resultado que imprime es Tercer día de la semana porque la variable día coincide con el valor que tiene este mensaje.
+
 
     Separador
     br
     br
+
     #t_1_5.titulo-segundo
       h2  1.5 Ciclos
+    .row.mb-5
+      .col-lg-2
+        figure
+          img.nW(src='@/assets/curso/t1-ic-12.svg', alt='imagen decorativa')
+      .col-lg-10
+        p.mb-3 Los ciclos o bucles iteran elementos de rangos de números, matrices o caracteres de una cadena sobre una secuencia. Entre los bucles más utilizados se encuentra el ciclo <i><b>for</b></i> y el ciclo <i><b>while</b></i>.
+    
+    h3.titulo-tercero Estructura ciclo <i>for</i>
+
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        .tarjeta.tarjeta--gris.p-4.mb-5  
+          figure
+            img.nW(src='@/assets/curso/p6.png', alt='Ejemplo de codigo')
+
+        figcaption.customCaption.text-bold.mb-3 Ejemplo
+        .tarjeta.tarjeta--gris.p-4.mb-5
+          figure
+            img.nW(src='@/assets/curso/p7.png', alt='Ejemplo de codigo')
+
+        .cajon.color-secundario.p-4.mb-5
+          p.mb-0  El ejemplo muestra una iteración de los números del 0 al 5, imprimiendo cada valor, a diferencia de otros lenguajes y, cómo la condicional if en swift no requiere de paréntesis. 
+        
+        .row.justify-content-center.mb-5
+          .col-lg-8
+            .tarjeta.tarjeta--gris.p-4.mb-5
+              figure
+                img.nW(src='@/assets/curso/p8.png', alt='Ejemplo de codigo')
+    
+    h3.titulo-tercero Estructura ciclo <i>while</i>
+    ul.lista-ul
+      li
+        i.fas.fa-check
+        p Una declaración <i><b>while</b></i> hace un proceso de iteración hasta que la condición sea falsa.
+      li
+        i.fas.fa-check
+        p El uso de este tipo de bucles se hace normalmente cuando no se conoce el número de iteraciones.
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tarjeta.tarjeta--gris.p-4.mb-5
+          figure
+            img.nW(src='@/assets/curso/p9.png', alt='Ejemplo de codigo')
+
+    figcaption.customCaption.text-bold.mb-3 Ejemplo
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="flip-up", data-aos-delay='0')
+          figure
+            img.nW(src='@/assets/curso/p10.png', alt='Ejemplo de codigo')
+        .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="flip-down", data-aos-delay='0')
+          figure
+            img.nW(src='@/assets/curso/p11.png', alt='Ejemplo de codigo')
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .tarjeta.color-turquesa.p-4
+          .row
+            .col-lg-2
+              figure.mb-5(data-aos="flip-left")
+                img(src='@/assets/curso/t3-i5.svg', alt='imagen decorativa') 
+            .col-lg-10
+              ul.lista-ul
+                li  
+                  i.fas.fa-check
+                  p.mb-0 A continuación, puede profundizar sobre el lenguaje de programación Swift de forma más detallada, para esto se invita a que visite la página: 
+              a.anexo.mb-4.mb-lg-0(href="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html " target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p <b>Enlace web.</b> Enlace web. https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html 
 
 
 

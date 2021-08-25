@@ -13,7 +13,7 @@
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
               figure.mb-5(data-aos="flip-left", data-aos-delay='0')
-                img.h180(src='@/assets/curso/t3-i1.svg', alt='Imagen Decorativa') 
+                img.nW(src='@/assets/curso/t3-i1.svg', alt='Imagen Decorativa') 
             .col-lg-8
               .bloque-texto-a__texto.p-4
                 p La mayoría de las aplicaciones tienen como requisito la persistencia de los datos que lo componen, almacenamiento de preferencias del usuario en el sistema, hasta bases de datos relacionales con grandes datos.
