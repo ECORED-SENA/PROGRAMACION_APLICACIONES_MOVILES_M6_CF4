@@ -32,7 +32,7 @@
           .col-6
             figure.mb-5(data-aos="flip-right", data-aos-delay='100')
               img(src='@/assets/curso/t3-i3.svg', alt='imagen decorativa')     
-          h3 SQLite
+          h3 <i>SQLite</i>
     .cajon.color-primario.p-4.mb-5
       .h4 Sistema predeterminado
       p.mb-3  Se refiere a una colección de listas de propiedades, estas se almacenan en la carpeta Biblioteca en una carpeta de preferencias.
@@ -54,7 +54,7 @@
     
     .row.mb-5.justify-content-center
       .col-lg-4
-        figcaption.customCaption  <b>Figura 6</b> Persistencia de datos userDefaults
+        figcaption.customCaption  <b>Figura 6</b> Persistencia de datos <i>userDefaults</i>
         figure.mb-5(data-aos="flip-right")
           img(src='@/assets/curso/t3-i4.png', alt='imagen decorativa') 
         figcaption  <a href='https://bit.ly/3swEV30' target='_blank'>https://bit.ly/3swEV30</a>
@@ -98,7 +98,7 @@
 
 
     #t_3_1.titulo-segundo
-      h2  Core data
+      h2  3.1 Core data
     .row.mb-5
       .col-lg-8
         p.mb-5  Es un ORM (object relational mapper) que permite almacenar datos de forma persistente y después recuperarlos, la ventaja de usar Core data es que maneja objetos en lugar de datos sin procesar como filas en SQLite o datos para el caso de un archivo XML.
@@ -111,7 +111,7 @@
           img(src='@/assets/curso/t3-i6.svg', alt='imagen decorativa') 
     .row.mb-5.justify-content-center
       .col-lg-4
-        figcaption.customCaption  <b>Figura 6</b> <i>Editor de modelos Core data</i>
+        figcaption.customCaption  <b>Figura 7</b> <i>Editor de modelos Core data</i>
         figure.mb-5(data-aos="fade-left")
           img.shadow-box(src='@/assets/curso/t3-i7.png', alt='imagen decorativa') 
         figcaption  <a href='https://bit.ly/3swgGC6' target='_blank'>https://bit.ly/3swgGC6</a>
@@ -152,7 +152,7 @@
     br
     br
     #t_3_2.titulo-segundo
-      h2  Cloudkit
+      h2  3.2 Cloudkit
     .row.justify-content-center.mb-5
       .col-lg-8    
         .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
