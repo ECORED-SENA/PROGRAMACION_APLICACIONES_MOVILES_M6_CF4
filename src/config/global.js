@@ -24,7 +24,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Lenguaje Swift',
+        titulo: 'Lenguaje <i>Swift</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -63,7 +63,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Entorno de desarrollo Xcode',
+        titulo: 'Entorno de desarrollo <i>Xcode</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -81,7 +81,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'SwiftUI',
+            titulo: '<i>SwiftUI</i>',
             hash: 't_2_3',
           },
         ],
@@ -96,13 +96,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Core data',
+            titulo: '<i>Core data</i>',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Cloudkit',
+            titulo: '<i>Cloudkit</i>',
             hash: 't_3_2',
           },
         ],
