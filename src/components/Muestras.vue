@@ -413,7 +413,7 @@ div.mb-5
   h3.titulo-tercero Tabla A
   //- .tabla-a debe ir acompañado de una de una de estas clases => 
   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-  .tabla-a.color-acento-botones.mb-5 
+  .tabla-a.color-acento-botones.mb-5
     table
       caption Leyenda de la tabla
       thead
