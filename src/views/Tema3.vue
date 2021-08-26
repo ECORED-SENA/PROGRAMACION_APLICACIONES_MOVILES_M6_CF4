@@ -65,7 +65,25 @@
     
     p.mb-5  A continuación, se nombran los principales componentes que se necesitan para el manejo de bases de datos <b><i>SQLite</i></b>.
     p.mb-5  Lo primero que se realiza para la creación de un proyecto usando <b><i>SQLite</i></b> es agregar la librería manualmente teniendo en cuenta:
-    //-- Aqui viene el card
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .tarjeta.tarjeta--gris
+          TabsA.customTabs
+            .tarjeta.p-4(titulo="SQLite.swift")
+              .row.justify-content-center.align-items-center
+                .col-lg-8
+                  figure.mb-5(data-aos="flip-right")
+                    img.nW(src='@/assets/curso/m1.png', alt='imagen decorativa') 
+            .tarjeta.p-4(titulo="Abrir Bd")
+              .row.justify-content-center.align-items-center
+                .col-lg-8
+                  figure.mb-5(data-aos="flip-left")
+                    img.nW(src='@/assets/curso/m2.png', alt='imagen decorativa')                 
+            .tarjeta.p-4(titulo="Implementar métodos")
+              .row.justify-content-center.align-items-center
+                .col-lg-8
+                  figure.mb-5(data-aos="flip-right")
+                    img.nW(src='@/assets/curso/m3.png', alt='imagen decorativa')                 
 
 
     .row.mb-5.justify-content-center
