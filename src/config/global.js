@@ -144,7 +144,7 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Apple. (2021). Apple Books. <i>An all-new chapter</i>',
+      referencia: 'Apple. (2021). Apple Books. <i>An all-new chapter.</i>',
       link: 'https://www.apple.com/apple-books',
     },
     {
@@ -202,22 +202,21 @@ export default {
     },
     {
       texto:
-        'Condicionales: Swift. (2021). Conceptos básicos: el lenguaje de programación Swift 5.5.',
-      tipo: 'Pagina',
-      link: 'https://docs.swift.org/swift-book/LanguageGuide/TheBasics.htm',
+        'Condicionales: Swift. (2021). <i>Conceptos básicos: el lenguaje de programación Swift 5.5.</i>',
+      tipo: 'Página',
+      link: 'https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html',
     },
     {
       texto: 'Core data: Mastermoviles. (2021). <i>El stack de Core data.</i>',
-      tipo: 'Video',
+      tipo: 'Página',
       link:
         'https://mastermoviles.gitbook.io/persistencia-en-dispositivos-m-viles-ios/intro-2/3.2_stack',
     },
     {
       texto:
-        'Core data: MSAFT.Industries. (2018). <i>Programando Core data en iOS [video]. YouTube. </i>',
+        'Core data: SAFT.Industries. (2018). <i>Programando Core data en iOS [video]. YouTube. </i>',
       tipo: 'Video',
-      link:
-        'https://mastermoviles.gitbook.io/persistencia-en-dispositivos-m-viles-ios/intro-2/3.2_stack',
+      link: 'https://www.youtube.com/watch?v=2Za19Z60aRk',
     },
     {
       texto:
@@ -240,7 +239,7 @@ export default {
     {
       texto:
         'AdnanTech. (2021). <i>Create, read, update and delete from SQLite - Swift & Swift UI.</i>',
-      tipo: 'Video',
+      tipo: 'Página',
       link:
         'https://adnan-tech.com/create-read-update-and-delete-from-sqlite-swift-swift-ui',
     },
@@ -259,7 +258,8 @@ export default {
         'https://applecoding.com/cursos/leccion-1-variables-constantes-inferencia-colecciones',
     },
     {
-      texto: 'Xcode: ‎Xcode. (2021). <i>Vista previa de Mac App Store.</i>',
+      texto:
+        '<i>Xcode: ‎Xcode</i>. (2021). <i>Vista previa de Mac App Store.</i>',
       tipo: 'Página',
       link: 'https://apps.apple.com/es/app/xcode/id497799835?ls=1&mt=12',
     },

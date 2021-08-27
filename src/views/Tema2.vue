@@ -110,11 +110,11 @@
                 img(src='@/assets/curso/t3-i5.svg', alt='imagen decorativa') 
             .col-lg-10
               p.mb-5  A continuación, puede <b>profundizar sobre el lenguaje de programación Swift</b> de forma más detallada, para esto se invita a que visite la página:
-              a.anexo.mb-4.mb-lg-0(href=" https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html" target="_blank")
+              a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=xTy6BWV4NR8" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p <b>Enlace web.</b>  https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html 
+                  p <b>Enlace web.</b> https://www.youtube.com/watch?v=xTy6BWV4NR8
 
 
 
@@ -175,8 +175,8 @@
           img.nW(src='@/assets/curso/d1.png', alt='Ejemplo de creacion de proyecto X-code') 
         figcaption https://developer.apple.com/documentation/xcode/creating-an-xcode-project-for-an-app
 
-    p.mb-5  Cuando se crea un proyecto la ventana que muestra la figura 1 solicita seleccionar la plataforma que para el ejemplo es <p><i>iOS</i></p> y la plantilla.
-    p.mb-5 En la figura 2 se configura la información preparada anteriormente como nombre, identificador, lenguaje, selección en la interfaz de usuario <p><i>SwiftUI</i></p>.
+    p.mb-5 Cuando se crea un proyecto la ventana que muestra la figura 1 solicita seleccionar la plataforma que para el ejemplo es <b><i>iOS</i></b> y la plantilla.
+    p.mb-5 En la figura 2 se configura la información preparada anteriormente como nombre, identificador, lenguaje, selección en la interfaz de usuario <b><i>SwiftUI</i></b>.
     .row.justify-content-center.mb-5
       .col-lg-6
         figcaption.customCaption <b>Figura 2</b> <i>Configuración de proyecto en Xcode</i>
@@ -272,25 +272,25 @@ export default {
       {
         titulo: 'Navigator área',
         texto:
-          '(área de navegación)<br>Permite ver y seleccionar la estructura de archivos del proyecto.',
+          '<b>(Área de navegación)</b><br>Permite ver y seleccionar la estructura de archivos del proyecto.',
         imagen: require('@/assets/curso/t2-s1.jpg'),
       },
       {
         titulo: 'Editor area',
         texto:
-          '(área de edición)<br>Muestra el contenido de los archivos a editar.',
+          '<b>(Área de edición)</b><br>Muestra el contenido de los archivos a editar.',
         imagen: require('@/assets/curso/t2-s2.jpg'),
       },
       {
         titulo: 'Inspector area',
         texto:
-          '(inspector de área)<br>Permite visualizar los atributos para editar las propiedades de un archivo o elemento de la interfaz.',
+          '<b>(Inspector de área)</b><br>Permite visualizar los atributos para editar las propiedades de un archivo o elemento de la interfaz.',
         imagen: require('@/assets/curso/t2-s3.jpg'),
       },
       {
         titulo: 'Toolbar',
         texto:
-          '(barra de herramientas)<br>Permite crear y ejecutar la aplicación en un dispositivo, usando el emulador o un dispositivo real.',
+          '<b>(Barra de herramientas)</b><br>Permite crear y ejecutar la aplicación en un dispositivo, usando el emulador o un dispositivo real.',
         imagen: require('@/assets/curso/t2-s4.jpg'),
       },
     ],
