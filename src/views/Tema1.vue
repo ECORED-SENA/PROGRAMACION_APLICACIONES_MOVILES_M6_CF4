@@ -258,7 +258,7 @@
             figure
               img.nW(src='@/assets/curso/t1-ic10.svg', alt='icono decorativo')
           .col-lg-10
-            h4 Operadores de comparación
+            h4 Operadores de comparación: los operadores del lenguaje <i>Swift</i> son:
             .row
               .col-lg-4
                 ul.lista-ul

@@ -27,7 +27,7 @@
           .col-md-6.mb-4.mb-md-0.p-4
             h4 Simulador
             p Proporciona una rápida simulación para las pruebas en entornos de dispositivos iPhone, iPad, Apple Watch y Apple Tv con diferentes versiones de sistemas operativos para cuando no se tenga un dispositivo físico disponible.
-      .py-3.py-md-4(titulo="Simulador")
+      .py-3.py-md-4(titulo="Instruments")
         .row.mb-5
           .col-md-6
             figure
@@ -78,10 +78,6 @@
               tr
                 td Xcode 13 beta
                 td macOS Big Sur 11.3
-                td x86_64<br>armv7<br>armv7s<br>arm64<br>arm64e 
-              tr
-                td Xcode 12.5.1
-                td macOS Big Sur 11
                 td x86_64<br>armv7<br>armv7s<br>arm64<br>arm64e 
               tr
                 td Xcode 12.5.1

@@ -46,7 +46,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .cajon.color-secundario.p-4.mb-5
-          .h4.text-it userDefaults.synchronize()
+          .h4.text-it <i>userDefaults.synchronize()</i>
           p.mb-3  Almacena valores utilizando clave- valor, las líneas de código de la configuración de valores define el tipo de dato y el nombre de la llave con la cual se llamarán los datos, para el ejemplo: 
           p.mb-0  <b><i>userDefaults.setBool(true, forKey: "Key1")</i></b> está configurando una entrada de valor de tipo <b><i>booleano</i></b> y el nombre de la llave será key1.
     

@@ -282,20 +282,17 @@ export default {
       {
         nombre: 'Zulema León',
         cargo: 'Experta temática',
-        centro:
-          'Centro de Teleinformática y Producción Industrial',
+        centro: 'Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'María Inés Machado López',
         cargo: 'Diseñadora instruccional',
-        centro:
-          'Centro de Diseño y Metrología - Regional Distrito Capital',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Evaluadora instruccional',
-        centro:
-          'Centro de Gestión Industrial - Regional Distrito Capital',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Julia Isabel Roberto',
