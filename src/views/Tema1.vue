@@ -114,7 +114,7 @@
         .row.mb-5
           .col-md-6.mb-4.mb-md-0.p-4
             h4 Declaración de constantes y variables
-            p En el lenguaje <i>Swift</i>las constantes y variables se deben declarar antes de ser usadas, para declarar una constante se usa la palabra reservada let y para declarar una variable se utiliza la palabra reservada var.
+            p En el lenguaje <i>Swift</i> las constantes y variables se deben declarar antes de ser usadas, para declarar una constante se usa la palabra reservada let y para declarar una variable se utiliza la palabra reservada var.
         
           .col-md-6
             figcaption.customCaption.mb-2 <b>Ejemplo</b>  Declaración de constante
