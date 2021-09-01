@@ -120,7 +120,7 @@
       .col-lg-8
         p.mb-5  Es un ORM (object relational mapper) que permite almacenar datos de forma persistente y después recuperarlos, la ventaja de usar Core data es que maneja objetos en lugar de datos sin procesar como filas en SQLite o datos para el caso de un archivo XML.
         .cajon.color-secundario.p-4
-          p.mb-3  El uso de memoria en Core data a diferencia del de <b><i>SQLite</i></b> es mayor al igual que el espacio físico.
+          p.mb-3  El uso de memoria de Core data, a diferencia de <b><i>SQLite,</i></b> es mayor, así como el espacio libre que tiene.
           p.mb-3  Core data realiza todos los procesos que se hacen manualmente en <b><i>SQLite</i></b> de forma automática, lo que permite agilidad en el código.
           p.mb-0  Una de sus principales características es que <b><i>Xcode</i></b> tiene integrado el editor de modelos <b><i>Core data</i></b>, que permite modelar el modelo de datos por medio de la interfaz gráfica, como se muestra en la siguiente figura.
       .col-lg-4
